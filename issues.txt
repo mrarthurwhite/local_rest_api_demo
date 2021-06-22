@@ -1,0 +1,5 @@
+When npm install --save-dev json-server wont start I noticed this : 
+https://github.com/typicode/json-server/issues/370 I would suggest double 
+checking if the flag -g was set when running npm install -g json-server. 
+It's usually a common mistake that results in command not found.
+
